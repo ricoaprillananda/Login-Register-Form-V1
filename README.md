@@ -27,12 +27,6 @@ A futuristic Login & Register UI with pure HTML, CSS & Vanilla JS — powered by
 
 ---
 
-## Wallpaper Credits
-
-Custom AI-generated background designed for futuristic arctic city atmosphere with a sci-fi motorbike character (non-copyrighted, free use).
-
----
-
 ![Preview](preview1-temp.png) 
 
 ## Next Version Ideas
