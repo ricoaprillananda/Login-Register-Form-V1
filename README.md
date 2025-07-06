@@ -33,8 +33,7 @@ Custom AI-generated background designed for futuristic arctic city atmosphere wi
 
 ---
 
-![Preview](preview1-temp.png)
-![Preview](preview2.png)
+![Preview](preview1-temp.png) ![Preview](preview2.png)
 
 ## Next Version Ideas
 
