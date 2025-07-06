@@ -1,0 +1,133 @@
+/* Reset & Font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Body Background – Fullscreen FIX */
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+#registerBox {
+  display: none;
+}
+
+
+body {
+  background: url("assets/wallpaper.jpg") center center no-repeat fixed;
+  background-size: cover;
+  background-color: #000;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Form Wrapper with Glass Effect */
+.form-wrapper {
+  width: 100%;
+  max-width: 420px;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+
+  background: rgba(255, 255, 255, 0.15);
+  -webkit-backdrop-filter: blur(12px); /* Safari first */
+  backdrop-filter: blur(12px); /* Then standard */
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Form Box */
+.form-box {
+  width: 100%;
+}
+
+/* Input Box */
+.input-box {
+  margin-bottom: 15px;
+}
+
+.input-box label {
+  display: block;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgb(10, 66, 4);
+}
+
+/* Show/Hide Password */
+.password-box {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 35px;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+ -webkit-user-select: none; 
+  user-select: none;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #000000ce;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #053618;
+}
+
+/* Toggle Text */
+.toggle-text {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+  color: white;
+}
+
+.toggle-text span {
+  color: #11400e;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Responsive Fullscreen Fix */
+@media screen and (max-width: 768px) {
+  .form-wrapper {
+    padding: 20px;
+    border-radius: 12px;
+  }
+
+  .input-box input {
+    font-size: 13px;
+  }
+
+  button {
+    font-size: 15px;
+  }
+}

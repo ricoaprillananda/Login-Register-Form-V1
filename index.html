@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login & Register Form</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="form-wrapper">
+  <!-- Login Form -->
+  <div class="form-box" id="loginBox">
+    <h2>Login</h2>
+    <form id="loginForm">
+      <div class="input-box">
+        <label for="loginEmail">Email</label>
+        <input 
+          type="email" 
+          id="loginEmail" 
+          name="loginEmail" 
+          required 
+          placeholder="Enter your email" 
+          title="Email for login"
+        />
+      </div>
+      <div class="input-box password-box">
+        <label for="loginPassword">Password</label>
+        <input 
+          type="password" 
+          id="loginPassword" 
+          name="loginPassword" 
+          class="password-input" 
+          required 
+          placeholder="Enter your password" 
+          title="Password for login"
+        />
+        <span class="toggle-password">🐦‍⬛</span>
+      </div>
+      <button type="submit">Login</button>
+      <p class="toggle-text">Don’t have an account? <span id="showRegister">Register here</span></p>
+    </form>
+  </div>
+
+  <!-- Register Form -->
+   <div class="form-box" id="registerBox">
+    <h2>Register</h2>
+    <form id="registerForm">
+      <div class="input-box">
+        <label for="registerEmail">Email</label>
+        <input 
+          type="email" 
+          id="registerEmail" 
+          name="registerEmail" 
+          required 
+          placeholder="Enter your email" 
+          title="Email for registration"
+        />
+      </div>
+      <div class="input-box password-box">
+        <label for="registerPassword">Password</label>
+        <input 
+          type="password" 
+          id="registerPassword" 
+          name="registerPassword" 
+          class="password-input" 
+          required 
+          placeholder="Enter your password" 
+          title="Password for registration"
+        />
+        <span class="toggle-password">🐦‍⬛</span>
+      </div>
+      <button type="submit">Register</button>
+      <p class="toggle-text">Already have an account? <span id="showLogin">Login here</span></p>
+    </form>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
