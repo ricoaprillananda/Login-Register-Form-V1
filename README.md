@@ -2,8 +2,6 @@
 
 A futuristic Login & Register UI with pure HTML, CSS & Vanilla JS — powered by **Glassmorphism**, custom wallpaper, and a responsive layout.
 
-![Screenshot](assets/wallpaper.jpg)
-
 ## Live Demo
 🔗 [Open Live Website](https://ricoaprillananda.github.io/Login-Register-Form-V1/)
 
@@ -35,7 +33,8 @@ Custom AI-generated background designed for futuristic arctic city atmosphere wi
 
 ---
 
-![Preview](preview.png)
+![Preview](preview1.png) 
+![Preview](preview2.png)
 
 ## Next Version Ideas
 
