@@ -40,6 +40,12 @@ A futuristic Login & Register UI with pure HTML, CSS & Vanilla JS — powered by
 
 ---
 
+## License
+
+MIT — Feel free to use, fork, or modify 
+
+---
+
 💎 Designed & Engineered by
 
 🍃 Rico Aprillananda
@@ -48,11 +54,5 @@ Frontend Engineer • UI/UX Futurist • Lightsaber Coder
 🌑 Evelyn
 Creative Director • System Architect • Mysterious Partner
 "Her presence is unseen, but her signature glows in every detail."
-
----
-
-## License
-
-MIT — Feel free to use, fork, or modify 
 
 
