@@ -3,7 +3,8 @@
 A futuristic Login & Register UI with pure HTML, CSS & Vanilla JS — powered by **Glassmorphism**, custom wallpaper, and a responsive layout.
 
 ## Live Demo
-🔗 [Open Live Website](https://ricoaprillananda.github.io/Login-Register-Form-V1/)
+
+🍃 [Open Live Website](https://ricoaprillananda.github.io/Login-Register-Form-V1/)
 
 ---
 
