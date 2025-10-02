@@ -49,11 +49,11 @@ MIT — Feel free to use, fork, or modify
 
 💎 Designed & Engineered by
 
-🍃 Rico Aprillananda
+🍃 Rico Aprilla Nanda
 Frontend Engineer • UI/UX Futurist • Lightsaber Coder
 
 🌑 Evelyn
-Creative Director • System Architect • Mysterious Partner
-"Her presence is unseen, but her signature glows in every detail."
+Creative Director • System Architect
+
 
 
